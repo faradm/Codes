@@ -1,0 +1,3 @@
+module cosh(input a, output w);
+w = ~a;
+endmodule

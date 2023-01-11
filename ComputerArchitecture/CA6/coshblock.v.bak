@@ -1,0 +1,91 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// PROGRAM		"Quartus Prime"
+// VERSION		"Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition"
+// CREATED		"Tue May 30 07:30:00 2017"
+
+module coshblock(
+	clk,
+	rst,
+	start,
+	xbus,
+	ready,
+	io,
+	Result
+);
+
+
+input wire	clk;
+input wire	rst;
+input wire	start;
+input wire	[15:0] xbus;
+output wire	ready;
+output wire	[3:0] io;
+output wire	[15:0] Result;
+
+wire	SYNTHESIZED_WIRE_0;
+wire	SYNTHESIZED_WIRE_1;
+wire	SYNTHESIZED_WIRE_2;
+wire	SYNTHESIZED_WIRE_3;
+wire	SYNTHESIZED_WIRE_4;
+wire	SYNTHESIZED_WIRE_5;
+wire	SYNTHESIZED_WIRE_6;
+wire	[3:0] SYNTHESIZED_WIRE_7;
+
+assign	ready = SYNTHESIZED_WIRE_0;
+assign	io = SYNTHESIZED_WIRE_7;
+
+
+
+
+cosh	b2v_inst(
+	.xld(SYNTHESIZED_WIRE_0),
+	.clk(clk),
+	.selx(SYNTHESIZED_WIRE_1),
+	.seli(SYNTHESIZED_WIRE_2),
+	.ti1(SYNTHESIZED_WIRE_3),
+	.tld(SYNTHESIZED_WIRE_4),
+	.ri1(SYNTHESIZED_WIRE_5),
+	.rld(SYNTHESIZED_WIRE_6),
+	.i(SYNTHESIZED_WIRE_7),
+	.xbus(xbus),
+	.result(Result));
+
+
+controller	b2v_inst4(
+	.clk(clk),
+	.rst(rst),
+	.start(start),
+	.seli(SYNTHESIZED_WIRE_2),
+	.selx(SYNTHESIZED_WIRE_1),
+	.xld(SYNTHESIZED_WIRE_0),
+	.tld(SYNTHESIZED_WIRE_4),
+	.ti1(SYNTHESIZED_WIRE_3),
+	.rld(SYNTHESIZED_WIRE_6),
+	.ri1(SYNTHESIZED_WIRE_5),
+	
+	.i(SYNTHESIZED_WIRE_7));
+	defparam	b2v_inst4.getdata = 3'b010;
+	defparam	b2v_inst4.init = 3'b001;
+	defparam	b2v_inst4.itp1 = 3'b011;
+	defparam	b2v_inst4.itp2 = 3'b100;
+	defparam	b2v_inst4.itp3 = 3'b101;
+	defparam	b2v_inst4.itp4 = 3'b110;
+	defparam	b2v_inst4.itp5 = 3'b111;
+	defparam	b2v_inst4.wfs = 3'b000;
+
+
+endmodule

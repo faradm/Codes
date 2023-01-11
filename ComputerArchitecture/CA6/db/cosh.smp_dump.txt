@@ -1,0 +1,11 @@
+
+State Machine - |coshblock|controller:inst4|ps
+Name ps.itp5 ps.itp4 ps.itp3 ps.itp2 ps.itp1 ps.getdata ps.init ps.wfs 
+ps.wfs 0 0 0 0 0 0 0 0 
+ps.init 0 0 0 0 0 0 1 1 
+ps.getdata 0 0 0 0 0 1 0 1 
+ps.itp1 0 0 0 0 1 0 0 1 
+ps.itp2 0 0 0 1 0 0 0 1 
+ps.itp3 0 0 1 0 0 0 0 1 
+ps.itp4 0 1 0 0 0 0 0 1 
+ps.itp5 1 0 0 0 0 0 0 1 

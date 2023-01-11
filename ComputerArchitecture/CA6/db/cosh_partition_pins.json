@@ -1,0 +1,169 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ready",
+					"strict" : false
+				},
+				{
+					"name" : "io[3]",
+					"strict" : false
+				},
+				{
+					"name" : "io[2]",
+					"strict" : false
+				},
+				{
+					"name" : "io[1]",
+					"strict" : false
+				},
+				{
+					"name" : "io[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[15]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[14]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[13]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[12]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[11]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[10]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[9]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[8]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "xbus[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
